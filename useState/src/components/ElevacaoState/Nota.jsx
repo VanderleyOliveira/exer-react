@@ -5,7 +5,7 @@ export default function Nota(props) {
     return (
         <div>
             <legend>informe sua nota: {props.num}</legend>
-            <input type="text" name={props.name} value={props.nota} onChange={(e)=>props.setNota(e.target.value)} />
+            <input type="text" name={props.nome} value={props.nota} onChange={(e)=>props.setNota(e)} />
         </div>
     );
 }
