@@ -1,6 +1,7 @@
 import React from "react";
-import MultiUseState from "./components/MultiUseState"
+import MultiUseState from "./components/MultiUseState/MultiUseState"
 import NotasResultados from "./components/ElevacaoState/Index";
+import BoxChannel from "./components/Contencao/Index";
 
 
 export default function App() {
@@ -10,7 +11,8 @@ export default function App() {
       <MultiUseState />
       <hr />
       <NotasResultados/>
-      
+      <hr />
+      <BoxChannel/>
     </>
   );
 }
