@@ -10,8 +10,8 @@ export default class ClasseProps extends React.Component {
         return (
             <div>
                 <h1>Componente com Props de Classe</h1>
-                <p>Tema: {this.props.tema}</p>
-                <p>Tema: {this.props.local}</p>
+                <p>Ponto: {this.props.ponto}</p>
+                <p>Local: {this.props.local}</p>
             </div>
         )
     }
